@@ -18,7 +18,7 @@ const fixedOrder = [
     { name: '綠色', emoji: '🟢' },
     { name: '藍色', emoji: '🔵' },
     { name: '紫色', emoji: '🟣' },
-    { name: '咖啡色', emoji: '🟤' },
+    { name: '棕色', emoji: '🟤' },
     { name: '白色', emoji: '⚪' }
 ];
 
