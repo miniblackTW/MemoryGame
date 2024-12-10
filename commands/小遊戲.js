@@ -15,9 +15,7 @@ module.exports = {
     async execute(interaction) {
         const game = interaction.options.getString('遊戲');
 
-        if (game === 'tetris') {
-            await startTetrisGame(interaction);
-        } else if (game === 'memorygame') {
+        if (game === 'memorygame') {
             await startMemoryGame(interaction);
         } else {
             await interaction.reply('sad... 這個遊戲尚未開放');
